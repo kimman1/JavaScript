@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<header>
+    <script src="sort.js"></script>
+</header>
+<body>
+    <h2>Xin chào</h2>
+    <div id="inputForm">
+    <table>
+            <tr>
+                <td>Nhập số phần tử:</td>
+                <td><input type="text" id="sophantu"></td>
+            </tr>
+            <tr>
+                <td>Nhập các phần tử ngắn cách nhau bằng dấu phẩy</td>
+                <td><input type="text" id="cacphantu"></td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="input" type="submit" onclick="inputN()"> Input data </button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="inputNumber">
+      
+    </div>
+
+    <div id="source">
+        
+        <button id="sortInc" type="submit" onclick="sortInc()">sortInc</button>
+        <button id="sortDec" type="submit" onclick="sortDec()">sortDec</button>
+        <button type="submit" onclick="maxFind()">Max Find</button>
+        <button type="submit" onclick="minFind()">Min Find</button>
+        <button type="submit" onclick="sortIncChan()">Sap xep tang chan</button>
+        <button type="submit" onclick="sortIncLe()">Sap xep tang le</button>
+        <button type="submit" onclick="confirm()">Confirm</button>
+        <button type="submit" onclick="test()">Test</button>
+    </div>
+
+    <div>
+        <p id="sortIncResult"></p>
+        <p id="sortDecResult"></p>
+        <p id="maxFindResult"></p>
+        <p id="minFindResult"></p>
+        <p id="sortIncChanResult"></p>
+        <p id="sortIncLeResult"></p>
+
+    </div>
+</body>
+
+</html>
